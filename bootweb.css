@@ -1,0 +1,258 @@
+*{margin:0;padding:0;box-sizing:border-box;}
+body{
+	font-family:sans-serif;
+}
+.title{
+	text-transform:uppercase!important;
+}
+.title::before{
+	content:"";
+	background:#7b1798;
+	width:200px;
+	height:5px;
+	margin:auto;
+	display:block;
+	transform:translateY(63px);
+}
+.title::after{
+	content:"";
+	background:#7b1798;
+	width:50px;
+	height:10px;
+	margin:0 auto 40px;
+	display:block;
+	transform:translateY(8px);
+}
+#navbar{
+	position:sticky;
+	top:0;
+	z-index:10;
+}
+.navbar{
+	background:linear-gradient(to right,#a517ba,#5f1782);
+	border:none;
+}
+.navbar-brand img{
+	height:40px;
+	width:100px;
+	object-fit:cover;
+	padding-left:20px;
+}
+.navbar-nav{padding:10px 0;}
+.navbar-nav li{
+	padding:0 10px;
+	text-align:right;
+}
+.navbar-nav li a{
+	color:#fff !important;
+	font-weight:600;
+}
+.fa-bars{
+	color:#fff;
+	font-size:30px!important;
+}
+.navbar-toggler{
+	outline:none!important;
+}
+
+/* banner section */
+
+#banner{
+	background:linear-gradient(to right,#a517ba,#5f1782);
+	color:#fff;
+	padding:5% 0 10%;
+	clip-path: polygon(50% 0%, 100% 0, 100% 87%, 65% 100%, 31% 91%, 0 98%, 0 0);
+}
+.promo-title{
+	font-size:40px;
+	font-weight:600;
+	margin-top:100px;
+}
+.play-btn{
+	width:45px;
+	margin:20px;
+}
+#banner a{
+	text-decoration:none;
+	color:#fff;
+}
+#banner .img{
+	width:60%;
+}
+.img-o{
+	width:100%;
+}
+
+/* services section */
+
+#services{
+	padding:80px 0;
+}
+.service-img {
+    width: 100px;
+    height: 70px;
+    margin-top: 20px;
+    object-fit: contain;
+}
+.services{
+	padding:20px;
+}
+.services h4{
+	padding:5px;
+	margin-top:25px;
+	font-size:22px;
+	font-weight:600;
+	text-transform:uppercase;
+}
+#services .btn-primary{
+	box-shadow:none;
+	padding:8px 25px;
+	border:none;
+	border-radius:20px;
+	background:linear-gradient(to right,#a517ba,#5f1782);
+}
+
+/* about section */
+
+#about-us{
+	background:#f8f9fa;
+	padding:50px 0;
+}
+#about-us .title::after{
+	transform:translateY(0);
+}
+.about-title{
+	font-size:40px;
+	font-weight:600;
+	margin-top:8%;
+}
+#about-us ul{
+	list-style-type:square;
+	margin-left:20px;
+}
+#about-us ul li{
+	margin:10px 0;
+}
+.myimg{
+	width:70%;
+}
+
+/* testimonials */
+
+#testimonials{
+	padding:80px 0;
+}
+#testimonials .title::after{
+	transform:translateY(0);
+}
+.testimonials{
+	border-left:4px solid #7b1798;
+	margin:50px 10px;
+}
+.testimonials img{
+	height:60px;
+	width:60px;
+	border-radius:50%;
+	margin:0 10px;
+	object-fit:cover;
+}
+.testimonials .user{
+	display:inline-block;
+	font-size:12px;
+	font-weight:600;
+}
+
+/* social media section */
+
+#social-media{
+	background:#f8f9fa;
+	padding:90px 0 160px;
+}
+#social-media p{
+	font-size:36px;
+	font-weight:600;
+	margin-bottom:30px;
+}
+.social-icon a{
+	margin:0 12px;
+	width:45px;
+	height:55px;
+	background:#a517ba;
+	display:inline-block;
+	border-radius:10% 10% 50% 50%;
+	transition:all 0.5s;
+}
+.social-icon a:hover{
+	background:#5f1782
+}
+.social-icon a .fa{
+	width:40px;
+	height:50px;
+	background:rgba(95, 23, 130);
+	line-height:40px;
+	border-radius:10% 10% 50% 50%;
+	color:white;
+	font-size:20px;
+	transition:all 0.5s;
+}
+.social-icon a:hover .fa{
+	transform:translateY(-10px);
+	background:#d5d5d5;
+	color:#5f1782;
+}
+
+/* footer */
+
+#footer{
+	background:linear-gradient(to right,#a517ba,#5f1782);
+	color:#fff;
+	clip-path: polygon(36% 0, 71% 11%, 100% 0, 100% 100%, 0 100%, 0 7%);
+	padding: 94px 0 30px;
+    margin-top: -92px;
+}
+.footer-box{
+	padding:20px;
+}
+.footer-box img{
+	width:100px;
+	margin-bottom:20px;
+}
+.footer-box .fa{
+	    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+	border-radius:5px;
+	background:linear-gradient(to right,#a517ba,#5f1782);
+}
+.footer-box .form-control{
+	box-shadow:none;
+	border:none;
+	border-radius:0;
+	margin-top:25px;
+	max-width:250px;
+}
+.footer-box .btn-primary{
+	box-shadow:none;
+	border:none;
+	border-radius:0;
+	margin-top:30px;
+	background:linear-gradient(to right,#a517ba,#5f1782);
+}
+hr{
+	border-bottom:1px dotted #ddd;
+}
+.copyright{
+	margin-bottom:0;
+	padding-bottom:20px;
+	text-align:center;
+	word-spacing:3px;
+	font-weight:500;
+	color:#ddd;
+}
+::placeholder{
+	font-size:17px;
+	font-weight:500;
+}
